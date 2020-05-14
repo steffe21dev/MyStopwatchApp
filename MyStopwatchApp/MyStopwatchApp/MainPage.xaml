@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MyStopwatchApp.MainPage"
+             BackgroundColor="Black">
+
+    <StackLayout>
+
+        <Label x:Name="tidsLabel" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="00:00:00.00000"></Label>
+
+        <Button x:Name="btnStart" Text="Starta" Clicked="BtnStart_Clicked"></Button>
+        <Button x:Name="btnStop" Text="Stanna" Clicked="BtnStop_Clicked"></Button>
+        <Button x:Name="btnReset" Text="Nollställ" Clicked="BtnReset_Clicked"></Button>
+       
+    </StackLayout>
+
+</ContentPage>
